@@ -1,6 +1,6 @@
-# 📊 Análisis de Deserción de Clientes Bancarios - VERSIÓN MEJORADA
+# Análisis de Deserción de Clientes Bancarios - VERSIÓN MEJORADA
 
-## 🎯 Objetivo
+## Objetivo
 
 Analizar qué factores influyen en que los clientes abandonen un banco y crear modelos para predecir la deserción, **con manejo apropiado del desbalance del dataset**.
 
@@ -45,7 +45,7 @@ Para encontrar las variables más importantes, utilizamos tres métodos diferent
 
 ---
 
-## 2. 🤖 Modelos creados para predecir la deserción
+## 2. Modelos creados para predecir la deserción
 
 ### **Modelos Originales (Sin manejo de desbalance)**
 
@@ -66,7 +66,7 @@ Para encontrar las variables más importantes, utilizamos tres métodos diferent
 
 ---
 
-## 3. 📈 Resultados de los modelos mejorados
+## 3. Resultados de los modelos mejorados
 
 ### **Métricas de Rendimiento - Modelos Mejorados**
 
@@ -84,9 +84,9 @@ Para encontrar las variables más importantes, utilizamos tres métodos diferent
 
 ---
 
-## 4. 🏆 Mejor modelo identificado
+## 4. Mejor modelo identificado
 
-### **🏆 Logístico con Class Weights**
+### **Logístico con Class Weights**
 
 **Razones de la elección:**
 
@@ -103,7 +103,7 @@ Para encontrar las variables más importantes, utilizamos tres métodos diferent
 
 ---
 
-## 5. 💡 Impacto de las mejoras
+## 5. Impacto de las mejoras
 
 ### **Mejoras Obtenidas**
 
@@ -119,7 +119,7 @@ Para encontrar las variables más importantes, utilizamos tres métodos diferent
 
 ---
 
-## 6. 🔧 Técnicas aplicadas para el balanceo
+## 6. Técnicas aplicadas para el balanceo
 
 ### **Class Weights**
 
@@ -135,7 +135,7 @@ Para encontrar las variables más importantes, utilizamos tres métodos diferent
 
 ---
 
-## 7. 📊 Comparación final de modelos
+## 7. Comparación final de modelos
 
 ### **Ranking por F1-Score (Mejorado)**
 
@@ -154,7 +154,7 @@ Para encontrar las variables más importantes, utilizamos tres métodos diferent
 
 ---
 
-## 🎯 Conclusiones Principales
+## Conclusiones Principales
 
 1. **El desbalance era crítico**: Los modelos originales no podían identificar desertores efectivamente
 2. **Class Weights es efectivo**: Mejoró dramáticamente el rendimiento del modelo logístico
@@ -164,7 +164,7 @@ Para encontrar las variables más importantes, utilizamos tres métodos diferent
 
 ---
 
-## 📁 Archivos Generados
+## Archivos Generados
 
 ### **Análisis Original**
 
@@ -188,7 +188,7 @@ Para encontrar las variables más importantes, utilizamos tres métodos diferent
 
 ---
 
-## 🚀 Recomendaciones para Implementación
+## Recomendaciones para Implementación
 
 ### **Modelo Recomendado**
 
@@ -196,17 +196,10 @@ Para encontrar las variables más importantes, utilizamos tres métodos diferent
 - **Métricas a monitorear**: F1-Score y Recall
 - **Threshold**: Considerar ajustar según necesidades del negocio
 
-### **Próximos Pasos**
-
-1. **Validación cruzada**: Implementar para mayor robustez
-2. **Optimización de hiperparámetros**: Grid search para mejorar aún más
-3. **SMOTE**: Probar para comparar técnicas de balanceo
-4. **Ensemble methods**: Combinar múltiples modelos
-5. **Análisis de interpretabilidad**: SHAP values para explicabilidad
 
 ---
 
-## 📈 Resumen de Mejoras
+## Resumen de Mejoras
 
 | Aspecto                          | Antes    | Después   | Mejora        |
 | -------------------------------- | -------- | --------- | ------------- |
