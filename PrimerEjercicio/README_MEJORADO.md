@@ -23,7 +23,7 @@ Analizar qué factores influyen en que los clientes abandonen un banco y crear m
 
 ---
 
-## 1. 🔍 Variables más importantes para identificar clientes que desertan
+## 1. Variables más importantes para identificar clientes que desertan
 
 ### **Metodología Utilizada**
 
