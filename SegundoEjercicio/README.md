@@ -38,7 +38,7 @@ Para seleccionar la mejor estrategia se utilizó un _score compuesto_ que consid
 | Percentiles (2-98) | 4,687    | 0.275         | 0.372      | 0.314           |
 | Percentiles (5-95) | 4,276    | 0.743         | 0.339      | 0.582           |
 
-_🏆 Estrategia Seleccionada: IQR (factor=2.0)_
+_Estrategia Seleccionada: IQR (factor=2.0)_
 
 ## Caracterización de los 3 Segmentos de Clientes
 
